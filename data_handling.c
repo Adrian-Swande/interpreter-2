@@ -167,6 +167,8 @@ debug_int(index);
 		free(data->variableList[index].string);
 		for (int i = index; i < data->length; i++)
 			data->variableList[i] = data->variableList[i + 1];
+		free(data->variableList[data->length - 1].name);
+		free(data->variableList[data->length - 1].string);
 		data->length--;
 	} else
 		execution_error("tried to free non-existing variable");

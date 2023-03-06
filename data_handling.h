@@ -1,5 +1,5 @@
-#ifndef MEGUMIN_H
-#define MEGUMIN_H
+#ifndef DATA_HANDLING_H
+#define DATA_HANDLING_H
 
 typedef unsigned char byte;
 #define bool byte

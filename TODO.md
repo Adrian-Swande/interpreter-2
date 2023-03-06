@@ -1,2 +1,4 @@
-# Att göra
+# To do
 
+- Design syntax
+- Everything else...
